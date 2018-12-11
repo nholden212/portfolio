@@ -23,3 +23,8 @@
 .Nav-link:hover {
   background-color: #a6b9db;
 }
+
+.ResumeSection {
+  width: 40%;
+  margin: auto;
+}
