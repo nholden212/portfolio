@@ -8,17 +8,19 @@ import ResumePage from './components/ResumePage';
 import ContactPage from './components/ContactPage';
 import MusicPage from './components/MusicPage';
 
+import { FaUser, FaCode, FaFile, FaEnvelope, FaMusic } from 'react-icons/fa';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <nav className="Navbar-main">
-            <Link className="Nav-link" to="/about">About</Link>
-            <Link className="Nav-link" to="/projects">Projects</Link>
-            <Link className="Nav-link" to="/resume">Resume</Link>
-            <Link className="Nav-link" to="/contact">Contact</Link>
-            <Link className="Nav-link" to="/music">Music</Link>
+            <Link className="Nav-link" to="/about"><FaUser/></Link>
+            <Link className="Nav-link" to="/projects"><FaCode/></Link>
+            <Link className="Nav-link" to="/resume"><FaFile/></Link>
+            <Link className="Nav-link" to="/contact"><FaEnvelope/></Link>
+            <Link className="Nav-link" to="/music"><FaMusic/></Link>
           </nav>
         </header>
         <main className="main">
