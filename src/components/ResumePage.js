@@ -4,8 +4,50 @@ class ResumePage extends Component {
   render() {
     return (
       <div className="AboutPage">
-        <h1>Resume</h1>
-        <p>More content coming - stay tuned!</p>
+        <h1>Nick Holden</h1>
+        <div className="ResumeSection" id="ContactInfo">
+          <p>1717 16th Ave. #10</p>
+          <p>Seattle, Washington 98122</p>
+          <p>(925) 588-1170</p>
+          <p>nholden212@gmail.com</p>
+        </div>
+        <div className="ResumeSection" id="Links">
+          <a href="https://www.linkedin.com/in/nick-holden-32174296/">LinkedIn</a>
+          <a href="https://github.com/nholden212">Github</a>
+        </div>
+        <div className="ResumeSection" id="Summary">
+          <p>After beginning my career at a technical recruiting agency
+             in San Francisco, I realized that while I had a strong 
+             interest in tech, I did not have a passion for sales or cold 
+             calling. I reevaluated my options, and after some thorough 
+             research I enrolled in the Bloc online coding boot camp to 
+             learn software development from the groun up. I have recently 
+             moved to Seattle and am looking to work as a software engineer 
+             for an upstanding organization where I feel like my work is 
+             making a difference.</p>
+        </div>
+        <div className="ResumeSection" id="Tech">
+          <p><strong>Frontend: </strong>HTML, CSS, JavaScript, React.js, Bootstrap, Material UI, JSX, EJS</p>
+          <p><strong>Backend: </strong>Node.js, Express, npm, yarn</p>
+          <p><strong>Databases: </strong>SQL, PostgreSQL, Firebase</p>
+        </div>
+        <div className="ResumeSection" id="Education">
+          <p><strong>University of Oregon</strong></p>
+          <p>2013-2017</p>
+          <p>Bachelor's of Science in Business Administration - Marketing</p>
+          <p><strong>Bloc.io Online Coding Bootcamp</strong></p>
+          <p>February - November 2018</p>
+          <p>Software Engineering Certification</p>
+        </div>
+        <div className="ResumeSection" id="History">
+          <p><strong>Workbridge Associates</strong></p>
+          <p>Technical Recruiter, August - December 2017</p>
+          <ul>
+            <li>Sourced qualified senior software engineering candidates</li>
+            <li>Spoke with hiring managers of engineering teams</li>
+            <li>Gained an in-depth knowledge of engineering teams and the tech industry in San Francisco</li>
+          </ul>
+        </div>
       </div>
     );
   }
