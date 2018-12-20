@@ -28,13 +28,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <nav className="Navbar-main">
-            <Link className="Nav-link" to="/about"><FaUser/></Link>
-            <Link className="Nav-link" to="/projects"><FaCode/></Link>
-            <Link className="Nav-link" to="/resume"><FaFile/></Link>
-            <Link className="Nav-link" to="/contact"><FaEnvelope/></Link>
-            <Link className="Nav-link" to="/music"><FaMusic/></Link>
-          </nav>
+          <Link className="Nav-link" to="/about"><FaUser/></Link>
+          <Link className="Nav-link" to="/projects"><FaCode/></Link>
+          <Link className="Nav-link" to="/resume"><FaFile/></Link>
+          <Link className="Nav-link" to="/contact"><FaEnvelope/></Link>
+          <Link className="Nav-link" to="/music"><FaMusic/></Link>
         </header>
         <main className="main">
           <Route path="/about" component={AboutPage} />
