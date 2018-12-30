@@ -79,10 +79,31 @@ a {
   border-radius: 500px;
 }
 
-/*Page-specific layout rules*/
+/*About Page layout rules*/
 
 .Summary {
   text-align: left;
   padding-left: 3%;
   padding-right: 3%;
+}
+
+/*Projects Page layout rules*/
+
+.MainProjectContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Project {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(255, 225, 225), rgb(211, 168, 168));
+  border-style: outset;
+  border-color: rgb(255, 225, 225);
+  border-width: 2px;
+  border-radius: 10px;
 }

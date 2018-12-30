@@ -7,7 +7,7 @@ class ProjectsPage extends Component {
     return (
       <div className="Page">
         <h1 className="PageTitle">Projects</h1>
-        <div className="PageContent">
+        <div className="MainProjectContainer">
           <Project
             title="Example Project"
             description="A brief paragraph describing the project will go here."
