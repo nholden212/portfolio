@@ -34,7 +34,7 @@ class App extends Component {
           <Link className="Nav-link" to="/contact"><FaEnvelope/></Link>
           <Link className="Nav-link" to="/music"><FaMusic/></Link>
         </header>
-        <main className="main">
+        <main className="Main">
           <Route path="/about" component={AboutPage} />
           <Route path="/projects" component={ProjectsPage} />
           <Route path="/resume" component={ResumePage} />

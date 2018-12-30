@@ -46,32 +46,34 @@ class ContactPage extends Component {
 
   render() {
     return (
-      <div className="AboutPage">
-        <h1>Contact</h1>
-        <p><strong><a href="mailto:nholden212@gmail.com" target="_blank">Email Me!</a></strong></p>
-        <p>If you don't have a default email set up, you can also get in touch with me by filling out the form below:</p>
-        <form className="ContactForm" onSubmit={(e) => this.contactFormSubmit(e)}>
-          <h4>Contact me:</h4>
-          
-            <label hmtlFor="contact-firstName">First name:</label>
-            <input type="text" id="contact-firstName" value={this.state.firstName} onChange={(e) => this.updateFirstName(e)}></input>
-            <br></br>
+      <div className="Page">
+        <h1 className="PageTitle">Contact</h1>
+        <div className="PageContent">
+          <p><strong><a href="mailto:nholden212@gmail.com" target="_blank">Email Me!</a></strong></p>
+          <p>If you don't have a default email set up, you can also get in touch with me by filling out the form below:</p>
+          <form className="ContactForm" onSubmit={(e) => this.contactFormSubmit(e)}>
+            <h4>Contact me:</h4>
             
-            <label htmlFor="contact-lastName">Last name:</label>
-            <input type="text" id="contact-lastName" value={this.state.lastName} onChange={(e) => this.updateLastName(e)}></input>
-            <br></br>
-            
-            <label htmlFor="contact-email">Your email:</label>
-            <input type="email" id="contact-email" value={this.state.email} onChange={(e) => this.updateEmail(e)}></input>
-            <br></br>
-            
-            <label htmlFor="contact-body">Leave a message:</label>
-            <textarea id="contact-body" value={this.state.message} onChange={(e) => this.updateMessage(e)}></textarea>
-            <br></br>
-            
-            <button type="Submit">Submit</button>
+              <label hmtlFor="contact-firstName">First name:</label>
+              <input type="text" id="contact-firstName" value={this.state.firstName} onChange={(e) => this.updateFirstName(e)}></input>
+              <br></br>
+              
+              <label htmlFor="contact-lastName">Last name:</label>
+              <input type="text" id="contact-lastName" value={this.state.lastName} onChange={(e) => this.updateLastName(e)}></input>
+              <br></br>
+              
+              <label htmlFor="contact-email">Your email:</label>
+              <input type="email" id="contact-email" value={this.state.email} onChange={(e) => this.updateEmail(e)}></input>
+              <br></br>
+              
+              <label htmlFor="contact-body">Leave a message:</label>
+              <textarea id="contact-body" value={this.state.message} onChange={(e) => this.updateMessage(e)}></textarea>
+              <br></br>
+              
+              <button type="Submit">Submit</button>
 
-        </form>
+          </form>
+        </div>
       </div>
     );
   }

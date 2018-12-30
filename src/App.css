@@ -1,12 +1,21 @@
+/*General App and Navbar layout*/
+
 .App {
   text-align: center;
-  background-image: linear-gradient(#e3ebf8, #adbcd8)
 }
-
+  
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(#282c34,#1f232b);
+  border-style: outset;
+  border-color: #1f232b;
+  border-width: 2px;
   display: flex;
   justify-content: space-around;
+}
+
+html {
+  min-height: 100%;
+  background-image: linear-gradient(#e3ebf8, #adbcd8)
 }
 
 .Nav-link {
@@ -28,4 +37,52 @@
 
 a {
   text-decoration: none;
+}
+
+/*Component Layout*/
+
+.Main {
+  display: flex;
+  justify-content: center;
+}
+
+.Page {
+  width: 80%;
+}
+
+.PageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(white, rgb(212, 212, 212));
+  border-style: outset;
+  border-radius: 10px;
+}
+
+/*Image Design Rules*/
+
+.imgContainer {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+.imgContainer img {
+  width: 95%;
+  height: auto;
+}
+
+.headshot {
+  border-style: groove;
+  border-color: rgb(58, 99, 112);
+  border-width: 2px;
+  border-radius: 500px;
+}
+
+/*Page-specific layout rules*/
+
+.Summary {
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 3%;
 }
