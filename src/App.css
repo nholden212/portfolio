@@ -15,7 +15,10 @@
 
 html {
   min-height: 100%;
-  background-image: linear-gradient(#e3ebf8, #adbcd8)
+  background-image: url(assets/seattle_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Nav-link {
