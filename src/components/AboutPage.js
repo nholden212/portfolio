@@ -6,8 +6,8 @@ class AboutPage extends Component {
     return (
       <div className="Page">
         <h1 className="PageTitle">About Nick</h1>
-        <div className="PageContent">
-          <p className="Summary">
+        <div className="Summary">
+          <p>
             Hey there! 
             <br></br> <br></br>
             My name is Nick. I'm a software engineer who recently moved to Seattle, WA.

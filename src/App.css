@@ -2,6 +2,7 @@
 
 .App {
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
   
 .App-header {
@@ -42,8 +43,6 @@ a {
   text-decoration: none;
 }
 
-/*Component Layout*/
-
 .Main {
   display: flex;
   justify-content: center;
@@ -51,15 +50,6 @@ a {
 
 .Page {
   width: 80%;
-}
-
-.PageContent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(white, rgb(212, 212, 212));
-  border-style: outset;
-  border-radius: 10px;
 }
 
 /*Image Design Rules*/
@@ -78,6 +68,13 @@ a {
 /*About Page layout rules*/
 
 .Summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(white, rgb(212, 212, 212));
+  opacity: 0.9;
+  border-style: outset;
+  border-radius: 10px;
   text-align: left;
   padding-left: 3%;
   padding-right: 3%;
@@ -109,6 +106,7 @@ a {
   border-color: rgb(255, 225, 225);
   border-width: 2px;
   border-radius: 10px;
+  opacity: 0.9;
 }
 
 /*Resume Page layout rules*/
@@ -122,6 +120,7 @@ a {
   border-radius: 10px;
   padding: 25px;
   margin: 10px;
+  opacity: 0.9;
 }
 
 .ResumeSectionContentSpaced {
