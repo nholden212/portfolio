@@ -72,19 +72,19 @@ a {
   height: auto;
 }
 
-.headshot {
-  border-style: groove;
-  border-color: rgb(58, 99, 112);
-  border-width: 2px;
-  border-radius: 500px;
-}
-
 /*About Page layout rules*/
 
 .Summary {
   text-align: left;
   padding-left: 3%;
   padding-right: 3%;
+}
+
+.headshot {
+  border-style: groove;
+  border-color: rgb(58, 99, 112);
+  border-width: 2px;
+  border-radius: 500px;
 }
 
 /*Projects Page layout rules*/
@@ -106,4 +106,23 @@ a {
   border-color: rgb(255, 225, 225);
   border-width: 2px;
   border-radius: 10px;
+}
+
+/*Resume Page layout rules*/
+
+.ResumeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-image: linear-gradient(white, rgb(212, 212, 212));
+  border-style: outset;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+}
+
+.ResumeSectionContentSpaced {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
