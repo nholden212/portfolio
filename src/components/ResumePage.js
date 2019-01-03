@@ -16,8 +16,8 @@ class ResumePage extends Component {
         <div className="ResumeSection" id="Links">
           <h3>Links</h3>
           <div className="ResumeSectionContentSpaced">
-            <a href="https://www.linkedin.com/in/nick-holden-32174296/">LinkedIn</a>
-            <a href="https://github.com/nholden212">Github</a>
+            <button><a href="https://www.linkedin.com/in/nick-holden-32174296/" target="_blank">LinkedIn</a></button>
+            <button><a href="https://github.com/nholden212" target="_blank">Github</a></button>
           </div>
         </div>
         <div className="ResumeSection" id="Summary">
