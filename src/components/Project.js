@@ -33,18 +33,20 @@ class Project extends Component {
                 <div className="ProjectSlideshow">
                     <button onClick={this.slideToTheLeft}>Back</button>
                     <button onClick={this.slideToTheRight}>Forward</button>
-                    <img 
-                        src={this.props.images[this.state.i].src}
-                        alt={this.props.images[this.state.i].alt}>
-                    </img>
+                    <div className="imgContainer">
+                        <img
+                            src={this.props.images[this.state.i]}
+                            alt={this.props.images[this.state.i].alt}>
+                        </img>
+                    </div>
                 </div>
                 
                 <h5 className="ProjectDeployedURL">
-                    Check out the deployed project <a className="" href={this.props.deployedURL}>here</a>
+                    Check out the deployed project <a href={this.props.deployedURL} target="_blank">here</a>
                 </h5>
                 
                 <h5 className="ProjectGitHubURL">
-                    Check out the code on GitHub <a href={this.props.gitHubURL}>here</a>
+                    Check out the code on GitHub <a href={this.props.gitHubURL} target="_blank">here</a>
                 </h5>
             </div>
         );
