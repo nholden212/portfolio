@@ -41,12 +41,12 @@ class Project extends Component {
                     </div>
                 </div>
                 
-                <h5 className="ProjectDeployedURL">
+                <h5 className="ProjectURL">
                     Check out the deployed project <a href={this.props.deployedURL} target="_blank">here</a>
                 </h5>
                 
-                <h5 className="ProjectGitHubURL">
-                    Check out the code on GitHub <a href={this.props.gitHubURL} target="_blank">here</a>
+                <h5 className="ProjectURL">
+                    Check out the code on Github <a href={this.props.gitHubURL} target="_blank">here</a>
                 </h5>
             </div>
         );

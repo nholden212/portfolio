@@ -28,14 +28,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Link className="Nav-link" to="/about"><FaUser/></Link>
+          <Link className="Nav-link" to="/"><FaUser/></Link>
           <Link className="Nav-link" to="/projects"><FaCode/></Link>
           <Link className="Nav-link" to="/resume"><FaFile/></Link>
           <Link className="Nav-link" to="/contact"><FaEnvelope/></Link>
           <Link className="Nav-link" to="/music"><FaMusic/></Link>
         </header>
         <main className="Main">
-          <Route path="/about" component={AboutPage} />
+          <Route exact path="/" component={AboutPage} />
           <Route path="/projects" component={ProjectsPage} />
           <Route path="/resume" component={ResumePage} />
           <Route path="/contact" render={(props) => <ContactPage firebase={firebase} />} />

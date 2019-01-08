@@ -123,6 +123,10 @@ button:hover {
   padding: 5%;
 }
 
+.ProjectURL > a {
+  color: blue;
+}
+
 /*Resume Page layout rules*/
 
 .ResumeSection {
