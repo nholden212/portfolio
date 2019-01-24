@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import ResumePDF from './../assets/nick-holden-resume.pdf';
 
 class ResumePage extends Component {
   render() {
     return (
       <div className="Page">
         <h1 className="PageTitle">Nick Holden</h1>
+        <p>Download a PDF of my resume <a href={ResumePDF} download>here</a>.</p>
         <div className="ResumeSection" id="ContactInfo">
           <h3>Contact Info</h3>
           <div className="ResumeSectionContentSpaced">
